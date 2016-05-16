@@ -44,7 +44,7 @@ public class PizzaController {
 	private BigDecimal totalPrice;
 	private boolean onConfirm = false;
 
-	@RequestMapping("/home")
+	@RequestMapping(value="/home", method = RequestMethod.GET)
 	public void pizzaAdd(Model model) {
 		crustList = crustService.findAll();
 		sauceList = sauceService.findAll();

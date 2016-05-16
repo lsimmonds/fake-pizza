@@ -14,7 +14,7 @@ public class ToppingService {
 
 	ToppingService() {
 		Topping Topping1 = new Topping();
-		Topping1.setName("Pepproni");
+		Topping1.setName("Pepperoni");
 		Topping1.setPrice(new BigDecimal(.50));
 		toppingList.add(Topping1);
 

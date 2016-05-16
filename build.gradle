@@ -19,6 +19,7 @@ jar {
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 sourceCompatibility = 1.8
@@ -28,6 +29,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework.boot:spring-boot-devtools")
     testCompile("junit:junit")
+    testCompile("org.mockito:mockito-core:1.+")
+    testCompile("org.springframework:spring-test-mvc:1.0.0.M2")
 }
 
 task wrapper(type: Wrapper) {

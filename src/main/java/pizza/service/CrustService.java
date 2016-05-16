@@ -32,9 +32,4 @@ public class CrustService {
 	public List<Crust> findAll() {
 		return crustList;
 	}
-	
-	public Crust findByIndex(final Integer id) {
-		return crustList.get(id);
-	}
-
 }
